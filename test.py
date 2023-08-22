@@ -1,5 +1,5 @@
 # %% load models
-from models import Shakkala, Shakkelha
+from voc_models import Shakkala, Shakkelha
 
 shakkala = Shakkala(sd_path='./data/shakkala_second_model6.pth')
 shakkelha = Shakkelha(sd_path='./data/shakkelha_rnn_3_big_20.pth')
